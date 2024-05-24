@@ -1,0 +1,40 @@
+.calculator {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    width: 400px;
+    height: 600px;
+    border: 1px solid;
+    padding: 5px;
+    border-color: #eee;
+    background-color: antiquewhite;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+}
+h1 {
+    text-align: center;
+}
+
+.display {
+    font-size: larger;
+    text-align: end;
+    padding: 10px;
+    border: 1px solid;
+    border-color: #000000;
+}
+
+.botoes {
+    display: flex;
+    justify-content: flex-end;
+    flex-grow: 1;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.digitos {
+    width: 75%;
+}
+
+.operadores {
+    width: 25%;
+   
+}
