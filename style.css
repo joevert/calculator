@@ -20,21 +20,40 @@ h1 {
     padding: 10px;
     border: 1px solid;
     border-color: #000000;
+    margin-bottom: 5px;
+}
+
+.numeros {
+    justify-content: space-between;
 }
 
 .botoes {
     display: flex;
     justify-content: flex-end;
     flex-grow: 1;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 1px solid;
+    border-color: #000000;
 }
 
 .digitos {
     width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.numeros {
+    display: flex;
+    justify-content: space-around;
 }
 
 .operadores {
     width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
    
 }
